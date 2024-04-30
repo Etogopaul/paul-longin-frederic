@@ -1,0 +1,152 @@
+*{
+    padding:0px;
+    margin:auto;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.l1{
+    postion:absolute;
+    margin-top:50px;
+    text-align:center;
+    font-weight:lighter;
+    font-size:28pt;
+ 
+}
+header{
+    padding:10px;
+  margin-top:20px; 
+  text-align:center; 
+  font-variant: small-caps;
+  font-size:25pt;
+}
+.loisir{
+    font-size:25pt;
+    
+    text-align:center; 
+    font-weight:lighter;  
+}
+#l1g{
+    border-radius:30px;
+    width:300px;
+    height:300px;
+    margin-top:27px;
+    padding: 10px;
+margin-left:2px;
+filter:saturate(200%);
+cursor: pointer;
+transition: all 0.7s ease;
+}
+#l1g:hover{
+padding:20px;
+transition: all 0.7s ease;
+}
+.ima{
+    display: flex;
+    align-items: center;
+    justify-content:space-around
+
+}
+#l1f{
+    border-radius:30px;
+    width:800px;
+    height:600px;
+    margin-top:70px;
+    padding: 10px;
+margin-left:2px;
+filter:saturate(200%);
+cursor: pointer;
+transition: all 0.7s ease;
+}
+#l1f:hover{
+    padding:20px;
+transition: all 0.7s ease;
+}
+.lois{
+    font-size:25pt;
+    margin-top:70px;
+    text-align:center; 
+    font-weight:bold;  
+}
+input[type="email"]{
+    display: flex;
+    margin-top:40px;
+    width:500px;
+    height:50px;
+   border:solid 2px black;
+   border-radius:2em;
+   
+}
+input[type="button"]{
+display: flex;
+margin-top:10px;
+width:130px;
+    height:50px;
+    border:solid 2px dodgerblue;
+    margin-bottom:9px;
+}
+input[type="button"]:hover{
+cursor:pointer;
+border:solid 2px #331;
+}
+
+input[value="Abonnez-vous"]{
+font-size:14pt;
+font-weight:bold;
+color:dodgerblue;
+text-align: center;
+}
+.ip{
+background-color: coral;
+
+height:200px;
+width:100%;
+}
+body{
+    background-color: cornflowerblue;
+}
+
+
+@media screen and (max-width:600px) and (min-width:400px) {
+    .ima{
+        display: block;
+    margin-left: 5rem;
+    } 
+    #l1f{
+       
+        width: 400px;
+        height:400px;
+ 
+    }  
+    input[type="email"]{
+      
+        margin-top:27px;
+        width:300px;
+        
+       
+    }
+    .lois{
+        font-size:13pt;
+        margin-top:85px;
+       
+    }
+    input[value="Abonnez-vous"]{
+        font-size:11pt;
+        font-weight:bold;
+        color:dodgerblue;
+        text-align: center;
+   
+        }
+        input[type="button"]{
+            display: flex;
+            margin-top:10px;
+            width:115px;
+              
+            }
+            .loisir{
+                font-size:23pt;
+                
+                text-align:center; 
+                font-weight:lighter;  
+            }
+}

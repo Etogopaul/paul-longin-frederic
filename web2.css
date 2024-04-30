@@ -1,0 +1,166 @@
+*{
+box-sizing:border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding:0px;
+margin: 0  px auto;
+}
+
+header{
+text-align:center;
+width:100%;
+background-color:goldenrod;
+border-radius:20em;
+height:100px;
+padding:10px;
+font-style:italic;
+}
+.l2{
+
+margin-top:50px;
+text-align:center;
+font-weight:bold;
+font-size:27pt;
+}
+
+#igm{
+   
+    width:300px;
+    height:300px;
+    margin-top:27px;
+    padding: 10px;
+margin-left:21px;
+filter:saturate(190%);
+cursor: pointer;
+transition: all 0.7s ease;
+border-radius: 2em;
+}
+#igm:hover{
+padding:20px;
+transition: all 0.7s ease;
+}
+.imag{
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+
+.po{
+    font-size :13px;
+    font-weight:bolder;
+}
+#is{
+width:300px;
+height:300px;
+filter:saturate(200%);
+margin-top:27px;
+    padding: 10px;
+    margin-left:21px;
+    cursor: pointer;
+transition: all 0.7s ease;
+border-radius: 2em;
+}
+#is:hover{
+    padding: 20px; 
+    transition: all 0.7s ease;
+}
+
+.rockstar{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+section.radio{
+  
+      width: 100%;
+   background-color: cornflowerblue;
+      position: relative;
+      top: 100%;
+    
+      display:flex;
+  align-items: center;
+  
+  }
+  .lower{
+      font-size: 30pt;
+      font-weight: bold;
+      padding:30px;
+      text-align: center;
+      color:black;
+     
+  }
+  .debut{
+      width:100%;
+  }
+  .eco li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding:8px;
+
+}
+
+.eco li a{
+    color:white;
+  
+  }
+
+  body{
+background-color:coral;
+
+  }
+
+  @media screen and (max-width:600px) and (min-width:400px) {
+  
+    .rockstar{
+        display:block;
+    
+    }
+    .debut{
+
+        display:block;
+      
+        
+        }
+        #igm{
+           
+            width:300px;
+            height:300px;
+          
+        }
+        .imag{
+            display:block;   
+        }
+
+        #is{
+            width:300px;
+            height:300px;   
+           
+        }
+        section.radio{
+  
+         
+        }
+        .lower{
+            font-size: 8pt;
+           
+        }
+        .eco li {
+           
+            display:inline;
+         
+        
+          
+          }
+          .l2{
+           
+            font-size:20pt;
+            text-align:start;
+            }
+            
+          
+
+  }

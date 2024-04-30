@@ -1,0 +1,161 @@
+*{
+padding:0px;
+margin:auto;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size:;
+box-sizing:border-box;
+}
+
+body{
+
+background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(re.jpg);
+filter: saturate(200%);
+background-size: cover;
+}
+.fl{
+
+}
+
+#cover{
+text-align:center;
+font-size:30pt;
+color:goldenrod;
+margin-top:25px;
+font-weight:bold;
+width:100%;
+height:50px;
+font-style:italic;
+
+}
+
+form{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex: 1 1 auto;: ;
+}
+
+section{
+display:flex;
+width: 400px;
+height:510px;
+border:solid 2px white ;
+border-radius:0em;
+position:absolute;
+top:138%;
+left:35%;
+background-color:white ;
+box-shadow: 3px 3px 3px #000;
+}
+
+
+.fl{
+padding:19px;
+
+}
+#ab{
+    text-align:center;
+    font-size:18pt;  
+    font-weight:bold;
+    position:absolute;
+    top:12%;
+    color:black;
+}
+#ac{
+    text-align:center;
+    font-size:18pt;  
+    font-weight:bold;
+    padding:25px;
+    color:black;
+}
+
+input[type="text"]{
+    boder:solid 3px #000;
+    border-radius:0px;
+    width:48%;
+    height:30px;
+    background-color: whitesmoke;
+   position:absolute;
+
+   left:23%;
+}
+
+
+
+
+input[type="password"]{
+    boder:solid 4px #000;
+    border-radius:0px;
+    width:48%;
+    height:30px;
+    background-color: whitesmoke;
+   position:absolute;
+   left:23%;
+}
+
+input[type="email"]{
+    boder:solid 4px #000;
+    border-radius:0px;
+    width:48%;
+    height:30px;
+    background-color: whitesmoke;
+   position:absolute;
+   left:23%;
+}
+
+select[name="option"]{
+
+    boder:solid 4px #000;
+    border-radius:0px;
+    width:48%;
+    height:30px;
+  background-color: whitesmoke;
+   position:absolute;
+   left:23%;
+   top:69%;
+}
+
+input[type="submit"]{
+    width:43%;
+    height:33px;
+    position:absolute;
+   left:28.2%;
+   top:90%;
+   border-radius:13px;
+   background-color: dodgerblue;
+
+}
+
+input[type="submit"]:hover{
+cursor:pointer ;
+}
+input[value="valider"]{
+    font-size: 14pt;
+    font-weight:bold;
+    color:white;
+}
+
+input:hover,input:focus{
+    background-color: #c4c4c4;
+    cursor:pointer;
+  
+}
+select[name=option]{
+    border:solid 1px #000;
+}
+
+@media screen and (max-width:600px) and (min-width:400px) {
+    #cover{
+      margin-left:60px;
+        
+        }
+        
+section{
+ width:100%;
+
+}
+
+
+}
+
